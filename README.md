@@ -95,28 +95,33 @@ Add FFmpeg to your system PATH:
 
 ```bash
 git clone https://github.com/tylerfreshwater/Discord-Voice-Bot-With-Summarization.git
-cd discord-voice-bot
+cd Discord-Voice-Bot-With-Summarization
 ```
 
-2. **Install dependencies:**
+2. **If you're starting a fresh project:**
+```bash
+npm init -y
+```
+
+3. **Install dependencies:**
 
 ```bash
 npm install
 ```
 
-3. **Create a .env file in the project directory:**
+4. **Create a .env file in the project directory:**
 ```bash
-touch.env
+touch .env
 ```
 
-4. **Add the following environment variables to .env:**
+5. **Add the following environment variables to .env:**
 ```bash
 DISCORD_TOKEN = your_discord_bot_token
 OPENAI_API_KEY = your_openai_api_key
 CHANNEL_ID = your_discord_text_channel_id
 ```
 
-5. **Run the bot:**
+6. **Run the bot:**
 ```bash
 node index.js
 ```
@@ -145,10 +150,12 @@ All customizable settings are located at the top of the `index.js` file:
 
 | Variable                  | Description                           | Default Value       |
 |---------------------------|---------------------------------------|---------------------|
-| `SUMMARY_INTERVAL_MINUTES` | Time interval for summarization       | `10` (10 minutes)   |
+| `SUMMARY_INTERVAL_MINUTES` | Time interval for summarization in minutes      | `10`   |
 | `OPENAI_MODEL`            | OpenAI model to use                   | `gpt-4o`             |
 | `SYSTEM_PROMPT`           | System prompt for summarizer          | See below           |
-| `USER_PROMPT`    | Template for user prompt              | See below           |
+| `USER_PROMPT`    | User prompt for summarizer              | See below           |
+
+
 
 ## Example Prompts
 
