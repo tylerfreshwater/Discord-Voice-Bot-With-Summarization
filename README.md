@@ -98,30 +98,25 @@ git clone https://github.com/tylerfreshwater/Discord-Voice-Bot-With-Summarizatio
 cd Discord-Voice-Bot-With-Summarization
 ```
 
-2. **If you're starting a fresh project:**
-```bash
-npm init -y
-```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
 
 ```bash
 npm install
 ```
 
-4. **Create a .env file in the project directory:**
+3. **Create a .env file in the project directory:**
 ```bash
 touch .env
 ```
 
-5. **Add the following environment variables to .env:**
+4. **Add the following environment variables to .env:**
 ```bash
 DISCORD_TOKEN = your_discord_bot_token
 OPENAI_API_KEY = your_openai_api_key
 CHANNEL_ID = your_discord_text_channel_id
 ```
 
-6. **Run the bot:**
+5. **Run the bot:**
 ```bash
 node index.js
 ```
