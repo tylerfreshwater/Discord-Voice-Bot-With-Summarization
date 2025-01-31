@@ -16,7 +16,7 @@ This is a **Discord Bot** that joins a voice channel, listens to conversations, 
 - **Audio Capture**: Captures audio from all speakers in the voice channel
 - **Transcription**: Converts audio to text using OpenAI Whisper
 - **Summarization**: Summarizes transcriptions using OpenAI GPT (customizable prompts and model)
-- **Customizable Intervals**: Easily configure summarization frequency
+- **Customizable Intervals**: Configure summarization frequency
 - **Multispeaker Support**: Handles multiple speakers simultaneously
 - **Real-time Summaries**: Posts summaries directly to a Discord text channel
 
