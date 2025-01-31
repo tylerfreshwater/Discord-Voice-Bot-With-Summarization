@@ -176,7 +176,7 @@ Summarize the following text:
 - Check that your OpenAI API key is valid
 - Ensure sufficient permissions for the bot
 
-#### PCM/WAV Conversion Issues:
+#### PCM/MP3 Conversion Issues:
 - Ensure FFmpeg is installed and in `PATH`
 
 ## License
